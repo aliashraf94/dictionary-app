@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- import css file -->
@@ -9,10 +11,26 @@
     <title>Dictionary App</title>
 </head>
 <body>
+    <audio id="audio" src=""></audio>
     <div class="container">
         <div class="search-box">
             <input type="text" id="search" placeholder="Search for a word">
             <button id="search-btn">Search</button>
+        </div>
+        <div class="output-box">
+            <div class="word">
+                <h3> Word </h3>
+                <!-- font awesome speaker icon -->
+                <button>
+                <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+            <div class="details">
+                <p>Pos</p>
+                <p>/sample/</p>
+            </div>
+            <p class="word-meaning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, quasi.</p>
+            <p class="word-example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
         </div>
     </div>
     <!-- import js file -->
