@@ -11,26 +11,14 @@
     <title>Dictionary App</title>
 </head>
 <body>
-    <audio id="audio" src=""></audio>
+    <audio id="sound" src=""></audio>
     <div class="container">
         <div class="search-box">
-            <input type="text" id="search" placeholder="Search for a word">
+            <input type="text" id="input-word" placeholder="Search for a word">
             <button id="search-btn">Search</button>
         </div>
-        <div class="output-box">
-            <div class="word">
-                <h3> Word </h3>
-                <!-- font awesome speaker icon -->
-                <button>
-                <i class="fas fa-volume-up"></i>
-                </button>
-            </div>
-            <div class="details">
-                <p>Pos</p>
-                <p>/sample/</p>
-            </div>
-            <p class="word-meaning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, quasi.</p>
-            <p class="word-example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        <div class="output-box" id="output-box">
+           
         </div>
     </div>
     <!-- import js file -->
