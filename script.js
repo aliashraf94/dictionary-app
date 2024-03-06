@@ -1,9 +1,3 @@
-// console.log(
-//     fetch('https://api.dictionaryapi.dev/api/v2/entries/en_US/computer')
-//     .then(response => response.json())
-//     .then(data => console.log(data))
-// )
-
 const url = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
 
 const outputBox = document.getElementById('output-box')
